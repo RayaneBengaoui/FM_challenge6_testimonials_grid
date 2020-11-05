@@ -8,11 +8,17 @@
   margin: 0;
   box-sizing: border-box;
 }
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
 
 main {
   max-width: 1200px;
   margin: 5rem auto;
-  background: lightblue;
   display: grid;
   grid-template-rows: repeat(2, min-content);
   grid-template-columns: repeat(4, 1fr);
