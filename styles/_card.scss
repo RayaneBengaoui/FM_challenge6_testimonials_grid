@@ -1,15 +1,59 @@
+//Global to all cards
+
 .card {
   border-radius: 10px;
   padding: 1.5rem;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+
+  .card-profile {
+    display: flex;
+    align-items: center;
+    padding-bottom: 1.3rem;
+
+    img {
+      border-radius: 50%;
+      width: 2rem;
+      margin-right: 1rem;
+      border: 0.15rem solid;
+    }
+
+    .profile-status {
+      .name {
+        font-size: 0.9rem;
+      }
+    }
+  }
 }
 
 .light-card {
   color: $white;
+
+  .name {
+    color: $lightGray;
+  }
+
+  .status {
+    color: $lightGray;
+    opacity: 50%;
+  }
+
+  img {
+    border-color: $lightViolet;
+  }
 }
 
 .dark-card {
+  .name {
+    color: $darkGrayishBlue;
+  }
+
+  .status {
+    color: $darkGrayishBlue;
+    opacity: 50%;
+  }
 }
+
+//Specific Cards
 
 .card-1 {
   background-color: $moderateViolet;

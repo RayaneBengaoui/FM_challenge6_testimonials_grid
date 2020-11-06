@@ -5,8 +5,51 @@
           box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
 }
 
+.card .card-profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 1.3rem;
+}
+
+.card .card-profile img {
+  border-radius: 50%;
+  width: 2rem;
+  margin-right: 1rem;
+  border: 0.15rem solid;
+}
+
+.card .card-profile .profile-status .name {
+  font-size: 0.9rem;
+}
+
 .light-card {
   color: white;
+}
+
+.light-card .name {
+  color: #cfcfcf;
+}
+
+.light-card .status {
+  color: #cfcfcf;
+  opacity: 50%;
+}
+
+.light-card img {
+  border-color: #9b77d4;
+}
+
+.dark-card .name {
+  color: #48556a;
+}
+
+.dark-card .status {
+  color: #48556a;
+  opacity: 50%;
 }
 
 .card-1 {
