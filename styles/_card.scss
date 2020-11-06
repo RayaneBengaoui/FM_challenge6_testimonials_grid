@@ -2,7 +2,7 @@
 
 .card {
   border-radius: 10px;
-  padding: 1.5rem;
+  padding: 1.5rem 3rem;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
 
   .card-profile {
@@ -21,36 +21,43 @@
       .name {
         font-size: 0.9rem;
       }
+      .status {
+        opacity: 50%;
+      }
     }
+  }
+  .title {
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+    opacity: 95%;
+    font-weight: bolder;
+  }
+
+  .text {
+    line-height: 1.2rem;
+    opacity: 70%;
   }
 }
 
 .light-card {
   color: $white;
 
-  .name {
+  .profile-status {
     color: $lightGray;
   }
-
-  .status {
-    color: $lightGray;
-    opacity: 50%;
+  .card-profile {
+    img {
+      border-color: $lightViolet;
+    }
   }
 
-  img {
-    border-color: $lightViolet;
+  .text {
+    color: $lightGrayishBlue;
   }
 }
 
 .dark-card {
-  .name {
-    color: $darkGrayishBlue;
-  }
-
-  .status {
-    color: $darkGrayishBlue;
-    opacity: 50%;
-  }
+  color: $darkGrayishBlue;
 }
 
 //Specific Cards

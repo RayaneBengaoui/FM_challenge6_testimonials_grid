@@ -1,6 +1,6 @@
 .card {
   border-radius: 10px;
-  padding: 1.5rem;
+  padding: 1.5rem 3rem;
   -webkit-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
           box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
 }
@@ -26,30 +26,40 @@
   font-size: 0.9rem;
 }
 
+.card .card-profile .profile-status .status {
+  opacity: 50%;
+}
+
+.card .title {
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
+  opacity: 95%;
+  font-weight: bolder;
+}
+
+.card .text {
+  line-height: 1.2rem;
+  opacity: 70%;
+}
+
 .light-card {
   color: white;
 }
 
-.light-card .name {
+.light-card .profile-status {
   color: #cfcfcf;
 }
 
-.light-card .status {
-  color: #cfcfcf;
-  opacity: 50%;
-}
-
-.light-card img {
+.light-card .card-profile img {
   border-color: #9b77d4;
 }
 
-.dark-card .name {
-  color: #48556a;
+.light-card .text {
+  color: #ecf2f8;
 }
 
-.dark-card .status {
+.dark-card {
   color: #48556a;
-  opacity: 50%;
 }
 
 .card-1 {
